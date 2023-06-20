@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --primary-color: #000000;
+  --secondary-color: #03fa6e;
+  --accent1-color: #294367;
+  --accent2-color: #56f79b;
+
+  --heading-font: "Roboto", sans-serif;
+  --paragraph-font: "Roboto Mono", sans-serif;
+}
+
+* {
+  margin: 0;
+  font-family: var(--paragraph-font);
+}
+
+body {
+  background-color: var(--primary-color);
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  height: 10vh;
+  padding: 0.5%;
+  background-color: var(--secondary-color);
+  border-bottom: 1px solid var(--primary-color);
+}
+
+header a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    width: 30%;
+    font-size: 20px;
+    height: 100%;
+}
+
+header a:hover{
+    color: #fff;
+    background-color: var(--primary-color);
+    height: 80%;
+    width: 30%;
+}
+
+#logo-link{
+    width: 100%;
+}
+
+#logo-link:hover{
+    height: 100%;
+}
+
+#logo-container {
+  height: 100%;
+}
+
+#logo-header {
+  height: 100%;
+}
+
+#links-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 20%;
+  margin-left: 2.8%;
+}
+
+#links-container a {
+  text-decoration: none;
+}
+
+main{
+    min-height: 90vh;
+}
+
+#top{
+    background-image: url("../images/wallpaper.jpg");
+    height: 60vh;
+    width: 100%;
+    background-position: center;
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 100%);
+}
+
+#bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40vh;
+}
+
+.buttom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    height: 8vh;
+    width: 14%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    background-color: var(--secondary-color);
+}
+
+#name-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 14%;
+}
+
+#social-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 10%;
+}
+
+#social-container a{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#social-container a img{
+    height: 80%;
+}
