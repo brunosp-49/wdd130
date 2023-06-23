@@ -78,6 +78,21 @@ main{
     min-height: 90vh;
 }
 
+#about-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#main-projects{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 #top{
     background-image: url("../images/wallpaper.jpg");
     height: 60vh;
@@ -86,11 +101,32 @@ main{
     -webkit-mask-image: linear-gradient(to top, transparent 0%, black 100%);
 }
 
+#top-projects{
+  background-image: url("../images/wallpaperProjects.png");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  background-position: center;
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, black 100%);
+}
+
 #bottom{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 40vh;
+}
+
+#bottom-projects{
+  display: grid;
+  width: 80%;
+  height: 100vh;
+  grid-template-columns: 48% 48%;
+  grid-template-rows: 48% 48%;
+  gap: 2.5%;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .buttom{
@@ -136,4 +172,71 @@ footer{
 
 #social-container a img{
     height: 80%;
+}
+
+#mid{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 1fr;
+  padding: 0 4%;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  height: 80vh;
+  max-width: 100%;
+  background-position: center;
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, black 100%);
+  color: #fff;
+}
+
+#mid img{
+  height: 700px;
+  border-radius: 5px;
+  align-self: center;
+  justify-self: center;
+}
+
+#gridSkills{
+  width: 80%;
+  gap: 5%;
+  height: 500px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #294367;
+  height: 80%;
+  width: 50%;
+  padding: 2% 2%;
+  justify-self: center;
+
+}
+
+.card-inside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #294367;
+  height: 70%;
+  width: 100%;
+}
+
+.card-inside img{
+  height: 100%;
+}
+
+.text-container{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
