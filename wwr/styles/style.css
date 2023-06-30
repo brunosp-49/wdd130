@@ -343,3 +343,11 @@ button {
      the labels and their text fields */
   margin-left: 0.5em;
 }
+#text-container{
+  display: flex;
+  background-color: #fff;
+  width: 96%;
+  padding: 2%;
+  height: 100%;
+  margin-top: 50px;
+}
