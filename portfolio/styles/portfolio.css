@@ -149,10 +149,10 @@ footer{
 
 #name-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
-    width: 14%;
+    width: 20%;
 }
 
 #social-container{
@@ -239,4 +239,11 @@ footer{
   justify-content: center;
   align-items: center;
   color: #fff;
+}
+
+#link{
+  border: 1px solid var(--primary-color);
+  text-decoration: none;
+  color: var(--primary-color);
+  padding: 10px;
 }
