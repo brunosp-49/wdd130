@@ -24,6 +24,7 @@ START grid layout extra credit
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column: 2/11;
     background-color: white;
+    padding: 1rem;
   }
   .grid2 h2 {
     grid-column: 1/7;
@@ -38,6 +39,7 @@ START grid layout extra credit
     text-align: left;
     grid-column: 7/13;
     background-color: #09f4b2;
+    padding: 1rem;
   }
   
   .grid3 h3 {
@@ -51,6 +53,7 @@ START grid layout extra credit
     grid-column: 4/11;
     background-color: #b4faef;
     align-items: center;
+    padding: 1rem;
   }
   
   .grid4 h2 {
@@ -63,6 +66,7 @@ START grid layout extra credit
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column: 2/9;
     background-color: white;
+    padding: 1rem;
   }
   
   section h2 {
@@ -71,7 +75,6 @@ START grid layout extra credit
   }
   
   form {
-    
     grid-column: 2/7;
     background-color: #fae9b4;
 
@@ -90,12 +93,13 @@ START grid layout extra credit
     align-items: center;
     gap: 0 1em;
     background-color: #fae9b4;
+    padding: 1rem;
   }
 
   label {
     grid-column: 1;
     background-color: #fae9b4;
-    align-self: self-end;
+    text-align: right;
   }
   
   input {
